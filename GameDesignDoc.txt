@@ -1,0 +1,44 @@
+Enemies
+- Template Enemy
+- Goblin Texture
+  - Goblin is Fast
+  - Goblin Animation
+    - Attack Animation
+    - Walk Animation
+    - Die Animation
+- Zombie Texture  
+- Zombie is Slow
+  - Zombie Animation
+    - Attack Animation
+    - Walk Animation
+    - Die Animation
+
+Towers
+- Template Tower
+- Ice Tower Texture
+  - Slow Enemies
+  - Ice Tower Animation
+  - Ice Projectile Texture
+    - Ice Projectile Animation
+- Bomb Tower Texture
+  - Area of Effect Damage
+  - Bomb Tower Animation
+  - Bomb Projectile Texture
+    - Bomb Projectile Animation
+    - Explosions
+- Bow Tower Texture
+  - Fast Single Target Attack
+  - Bow Tower Animation
+  - Arrow Projectile Texture
+    - Arrow Projectile Animation
+- Fire Tower Texture
+  - Over Time Damage
+  - Fire Tower Animation
+  - Fire Projectile Texture
+    - Fire Projectile Animation
+
+Path
+- Template Path
+- Waypoints
+- Textures Path
+

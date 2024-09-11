@@ -1,56 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
     [SerializeField] List<GameObject> Points;
+    [SerializeField] GameObject FinishPoint;
     private int targetPoint = 0;
+    private float speed = 1f;
 
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
         EnemyMoveTowardPoint();
-        transform.rotation = Quaternion.Lerp(Quaternion.identity,Points[targetPoint].transform.rotation,1);
-        //if (transform.position == Points[targetPoint + 1].transform.position && targetPoint <= Points.Count)
-        //{
-        //    Debug.Log("you have arrived");
-        //    targetPoint++;
-        //}
-        //else if (targetPoint >= Points.Count) Debug.Log("You have reached the end");
     }
     void EnemyMoveTowardPoint()
     {
-        if (Points[targetPoint].transform.rotation ==  Quaternion.Euler(0,0,-90))
+        if (Points.Count >= targetPoint)
         {
-            transform.position += Vector3.right * Time.deltaTime;
+            transform.rotation = Quaternion.Lerp(Quaternion.identity, Points[targetPoint].transform.rotation, 1);
+            transform.position = Vector3.MoveTowards(transform.position, Points[targetPoint + 1].transform.position, speed * Time.deltaTime);
+            if (transform.position == Points[targetPoint + 1].transform.position)
+            {
+                Debug.Log("you have arrived");
+                targetPoint++;
+            }
+            
         }
-        else if (Points[targetPoint].transform.rotation == Quaternion.Euler(0, 0, 180))
+        else Debug.Log("Klaar");
+        if (FinishPoint.transform.position == transform.position)
         {
-            transform.position += Vector3.down * Time.deltaTime;
+            Destroy(gameObject);
         }
-        else if (Points[targetPoint].transform.rotation == Quaternion.Euler(0, 0, 90))
-        {
-            transform.position += Vector3.left * Time.deltaTime;
-        }
-        else if (Points[targetPoint].transform.rotation == Quaternion.Euler(0, 0, 0))
-        {
-            transform.position += Vector3.up * Time.deltaTime;
-        }
-
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("you have arrived");
-        targetPoint++;
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("you have arrived");
-        targetPoint++;
     }
 }
