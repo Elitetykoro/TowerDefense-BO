@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
 
             if (lines[0].Contains("green"))
             {
-                Enemy.GetComponent<SpriteRenderer>().color = Color.red;
+                Enemy.GetComponent<SpriteRenderer>().color = Color.green;
             }
             else if (lines[0].Contains("red"))
             {
@@ -28,6 +28,7 @@ public class Spawner : MonoBehaviour
         {
             Debug.LogError("Text file not found in Resources folder.");
         }
+
         StartCoroutine(Spawn());
     }
     private void Update()
