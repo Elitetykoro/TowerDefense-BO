@@ -5,7 +5,7 @@ using UnityEngine;
 public class PointScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    [HideInInspector] public List<GameObject> Points;
+    public List<GameObject> Points;
     void Start()
     {
         for (int i = 0; i < transform.childCount; i++)

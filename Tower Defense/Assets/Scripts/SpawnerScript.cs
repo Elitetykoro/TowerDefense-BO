@@ -6,15 +6,33 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject Enemy;
     [SerializeField] PointScript pointScript;
-    public int AmountofEnemies, SecondsBetweenWaves;
+    //public int AmountofEnemies, SecondsBetweenWaves;
     void Start()
     {
-        transform.position = pointScript.Points[0].transform.position;
+        TextAsset textFile = Resources.Load<TextAsset>("waveInit");
+
+        if (textFile != null) // Check if File is available
+        {
+            string[] lines = textFile.text.Split(new[] { '\n', '\r' }, System.StringSplitOptions.RemoveEmptyEntries); // Splitting the textFile
+
+            if (lines[0].Contains("green"))
+            {
+                Enemy.GetComponent<SpriteRenderer>().color = Color.red;
+            }
+            else if (lines[0].Contains("red"))
+            {
+                Enemy.GetComponent<SpriteRenderer>().color = Color.red;
+            }
+        }
+        else
+        {
+            Debug.LogError("Text file not found in Resources folder.");
+        }
         StartCoroutine(Spawn());
     }
     private void Update()
     {
-
+        transform.position = pointScript.Points[0].transform.position;
     }
     private IEnumerator Spawn()
     {

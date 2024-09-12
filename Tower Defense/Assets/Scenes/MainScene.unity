@@ -792,8 +792,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 8255579885986218556, guid: 289d3b9dbe7e59641973c3681c2b35cc, type: 3}
   pointScript: {fileID: 1473769475}
-  AmountofEnemies: 0
-  SecondsBetweenWaves: 0
 --- !u!4 &903603104
 Transform:
   m_ObjectHideFlags: 0
@@ -1375,5 +1373,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 903603104}
   - {fileID: 1473769474}
+  - {fileID: 903603104}

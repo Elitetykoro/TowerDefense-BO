@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Points: []
-  FinishPoint: {fileID: 0}
+  PointScript: {fileID: 0}
 --- !u!65 &3792563465589909434
 BoxCollider:
   m_ObjectHideFlags: 0

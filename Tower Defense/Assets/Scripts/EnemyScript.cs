@@ -28,7 +28,7 @@ public class EnemyScript : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, Points[targetPoint + 1].transform.position, speed * Time.deltaTime);
             if (transform.position == Points[targetPoint + 1].transform.position)
             {
-                Debug.Log("you have arrived");
+                Debug.Log("you have arrived at point "+targetPoint);
                 targetPoint++;
             }
             
@@ -36,7 +36,7 @@ public class EnemyScript : MonoBehaviour
         if (Points[Points.Count-1].transform.position == transform.position)
         {
             Destroy(gameObject);
-            Debug.Log("klaar");
+            Debug.Log("Finish!!");
         }
     }
 }
