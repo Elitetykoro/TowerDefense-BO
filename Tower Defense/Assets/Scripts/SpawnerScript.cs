@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject Enemy;
     [SerializeField] PointScript pointScript;
+    public int AmountofEnemies, SecondsBetweenWaves;
     void Start()
     {
         transform.position = pointScript.Points[0].transform.position;

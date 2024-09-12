@@ -39,6 +39,6 @@ Towers
 
 Path
 - Template Path
-- Waypoints
+- Waypoints[X]
 - Textures Path
 
