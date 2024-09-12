@@ -5,23 +5,20 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] GameObject Enemy;
-    // Start is called before the first frame update
+    [SerializeField] PointScript pointScript;
     void Start()
     {
-        
+        transform.position = pointScript.Points[0].transform.position;
+        StartCoroutine(Spawn());
     }
     private void Update()
     {
-        while (true) 
-        {
-            StartCoroutine(Spawn());
-        }
-
 
     }
     private IEnumerator Spawn()
     {
         yield return new WaitForSeconds(1);
-        Instantiate(Enemy);
+        Instantiate(Enemy, transform.position, pointScript.Points[0].transform.rotation);
+        Enemy.GetComponent<EnemyScript>().PointScript = pointScript;
     }
 }

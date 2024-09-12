@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
     [SerializeField] List<GameObject> Points;
-    [SerializeField] GameObject FinishPoint;
     private int targetPoint = 0;
     private float speed = 1f;
+    public PointScript PointScript;
 
-
+    private void Start()
+    {
+        Points = PointScript.Points;
+    }
     void Update()
     {
         EnemyMoveTowardPoint();
@@ -28,10 +33,10 @@ public class EnemyScript : MonoBehaviour
             }
             
         }
-        else Debug.Log("Klaar");
-        if (FinishPoint.transform.position == transform.position)
+        if (Points[Points.Count-1].transform.position == transform.position)
         {
             Destroy(gameObject);
+            Debug.Log("klaar");
         }
     }
 }
