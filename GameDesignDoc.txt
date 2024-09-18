@@ -38,7 +38,11 @@ Towers
     - Fire Projectile Animation
 
 Path
-- Template Path
+- Template Points [X]
 - Waypoints[X]
 - Textures Path
+
+Waves
+- Text File Reader[X]
+- Wave
 

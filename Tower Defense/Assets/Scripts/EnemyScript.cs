@@ -8,29 +8,29 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     [SerializeField] List<GameObject> Points;
-    private int targetPoint = 0;
+    private int pointIndex;
     private float speed = 1f;
     public PointScript PointScript;
+    public float health;
 
     private void Start()
     {
         Points = PointScript.Points;
+        pointIndex = 0;
     }
     void Update()
     {
         EnemyMoveTowardPoint();
+        if (health < 0) Destroy(gameObject);
     }
     void EnemyMoveTowardPoint()
     {
-        if (Points.Count >= targetPoint)
+        if (Points.Count >= pointIndex)
         {
-            transform.rotation = Quaternion.Lerp(Quaternion.identity, Points[targetPoint].transform.rotation, 1);
-            transform.position = Vector3.MoveTowards(transform.position, Points[targetPoint + 1].transform.position, speed * Time.deltaTime);
-            if (transform.position == Points[targetPoint + 1].transform.position)
-            {
-                Debug.Log("you have arrived at point "+targetPoint);
-                targetPoint++;
-            }
+            //Debug.LogWarning(pointIndex);
+            transform.rotation = Quaternion.Lerp(Quaternion.identity, Points[pointIndex].transform.rotation, 1);
+            transform.position = Vector3.MoveTowards(transform.position, Points[pointIndex + 1].transform.position, speed * Time.deltaTime);
+            if (transform.position == Points[pointIndex + 1].transform.position) pointIndex++;
             
         }
         if (Points[Points.Count-1].transform.position == transform.position)
