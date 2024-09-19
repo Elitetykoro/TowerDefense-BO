@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    //private TowerPlacementScript towerPlacementScript;
-    private EnemyScript enemyScript;
-    public GameObject target;
+    public EnemyScript enemyScript;
+    private GameObject target = null;
     public float speed;
     public float bulletDamage;
     void Start()
     {
-        //target = towerPlacementScript.targets;
         target = GetComponentInParent<TowerPlacementScript>().targets[0].gameObject;
-
+        bulletDamage = 10;
     }
 
     void Update()

@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class PointScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public List<GameObject> Points;
+    [Header("Points")]
+    public List<GameObject> points;
     void Start()
     {
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            Points.Add(transform.GetChild(i).gameObject);
-        }
+        for (int i = 0; i < transform.childCount; i++) points.Add(transform.GetChild(i).gameObject);
     }
-
 }

@@ -7,36 +7,37 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    [SerializeField] List<GameObject> Points;
+    [SerializeField] List<GameObject> pointList; 
+    public PointScript pointScript;
     private int pointIndex;
     private float speed = 1f;
-    public PointScript PointScript;
-    public float health;
+    public float health = 50;
 
     private void Start()
     {
-        Points = PointScript.Points;
+        health = 50;
+        pointList = pointScript.points;
         pointIndex = 0;
     }
     void Update()
     {
         EnemyMoveTowardPoint();
-        if (health < 0) Destroy(gameObject);
+        if (health < 0) Destroy(gameObject); // If health 0 == die
     }
     void EnemyMoveTowardPoint()
     {
-        if (Points.Count >= pointIndex)
+        if (pointList.Count >= pointIndex)
         {
-            //Debug.LogWarning(pointIndex);
-            transform.rotation = Quaternion.Lerp(Quaternion.identity, Points[pointIndex].transform.rotation, 1);
-            transform.position = Vector3.MoveTowards(transform.position, Points[pointIndex + 1].transform.position, speed * Time.deltaTime);
-            if (transform.position == Points[pointIndex + 1].transform.position) pointIndex++;
-            
+            if (pointList.Count > 0) // Move and look to next point
+            {
+                transform.rotation = Quaternion.Lerp(Quaternion.identity, pointList[pointIndex].transform.rotation, 1);
+                transform.position = Vector3.MoveTowards(transform.position, pointList[pointIndex + 1].transform.position, speed * Time.deltaTime);
+                if (transform.position == pointList[pointIndex + 1].transform.position) pointIndex++;
+            }
         }
-        if (Points[Points.Count-1].transform.position == transform.position)
+        if (pointList[pointList.Count-1].transform.position == transform.position) // Finish
         {
             Destroy(gameObject);
-            Debug.Log("Finish!!");
         }
     }
 }

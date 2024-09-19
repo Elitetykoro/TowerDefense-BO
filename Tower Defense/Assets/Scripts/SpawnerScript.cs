@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] GameObject Enemy;
+    [SerializeField] GameObject enemy;
     [SerializeField] PointScript pointScript;
+    private int enemyIndex;
     private float time = 0;
+
+    [Header("Delay in between Enemies")]
     public float spawnDelay = 1;
-    void Start()
-    { 
-    }
     private void Update()
     {
-        transform.position = pointScript.Points[0].transform.position;
+        transform.position = pointScript.points[0].transform.position;
         time += Time.deltaTime;
         if (time > spawnDelay)
         {
-            GameObject newEnemy =  Instantiate(Enemy, transform.position, pointScript.Points[0].transform.rotation);
-            newEnemy.name = "enemy";
-            Enemy.GetComponent<EnemyScript>().PointScript = pointScript;
-            if (spawnDelay > 2) spawnDelay = spawnDelay * 0.75f;
+            GameObject newEnemy = Instantiate(enemy, transform.position, pointScript.points[0].transform.rotation);
+            enemyIndex++;
+            newEnemy.name = $"enemy{enemyIndex}";
+            enemy.GetComponent<EnemyScript>().pointScript = pointScript;
+            //if (spawnDelay > 2) spawnDelay = spawnDelay * 0.75f; // Difficulty modifier
             time = 0;
         }
     }
