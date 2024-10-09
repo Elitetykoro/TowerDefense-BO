@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    [SerializeField] List<GameObject> pointList; 
+    [SerializeField] private List<GameObject> pointList;
     public PointScript pointScript;
     private int pointIndex;
     private float speed = 1f;
@@ -15,12 +15,14 @@ public class EnemyScript : MonoBehaviour
 
     private void Start()
     {
+        
         health = 50;
         pointList = pointScript.points;
         pointIndex = 0;
     }
     void Update()
     {
+        
         EnemyMoveTowardPoint();
         if (health < 0) Destroy(gameObject); // If health 0 == die
     }
