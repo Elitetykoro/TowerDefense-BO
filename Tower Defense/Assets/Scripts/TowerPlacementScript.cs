@@ -22,15 +22,18 @@ public class TowerPlacementScript : MonoBehaviour
     {
         Instantiate(bowTower, transform.position, Quaternion.identity, transform);
         transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetComponent<Collider2D>().enabled = false;
     }
     public void IceTowerPlacement()
     {
         Instantiate(iceTower, transform.position, Quaternion.identity, transform);
         transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetComponent<Collider2D>().enabled = false;
     }
     public void CanonTowerPlacement()
     {
         Instantiate(canonTower, transform.position, Quaternion.identity, transform);
         transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetComponent<Collider2D>().enabled = false;
     }
 }

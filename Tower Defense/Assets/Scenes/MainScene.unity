@@ -122,6 +122,150 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &15266115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 673552914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &35298990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &68396102 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 549229698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &76960078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 991599073}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &81058598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2116030729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &108976709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &110667085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1373565848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &131236566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1051984700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &137340585
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +350,348 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &168016327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &223997756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &230292914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &235717578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &274475348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &350503006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &379595426
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,12 +838,17 @@ Transform:
   m_GameObject: {fileID: 397944930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -9, y: -0.9999999, z: 0}
+  m_LocalPosition: {x: -10, y: -1, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1473769474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!4 &403360775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1393112472}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &413654336
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +875,7 @@ Transform:
   m_GameObject: {fileID: 413654336}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.0000005, y: -3.9999995, z: 0}
+  m_LocalPosition: {x: 6.0000005, y: -6, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -442,6 +933,130 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &418425010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &449612487 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1707307091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &454795496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &462018751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1950089532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +1194,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &549025406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &549229698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +1390,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &621346626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &623855707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &649621599
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +1588,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &673552914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (39)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &683833600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1941043875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &688334264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1440056702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &688443635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -757,13 +1667,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TowerBasePrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1352450520809610096, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284013305156475650, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8143227998070574261, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8143227998070574261, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8143227998070574261, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
       propertyPath: m_LocalPosition.z
@@ -798,6 +1716,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8965732909275999097, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965732909275999097, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -806,6 +1728,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea0129dade2b0cb4cb204b27103f1c64, type: 3}
+--- !u!4 &704352825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1200115318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &710279174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 454795496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &769197050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &782302088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &792491857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 782302088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &812030685
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +1941,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &814077590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 418425010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &818179226 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 235717578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &837916080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 769197050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &868304234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 350503006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &873124086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &903603102
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +2065,264 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &909287164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 168016327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &917120612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &935025699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 6587063982577115641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &991599073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &1008573151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 223997756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1020447580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 274475348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1051984700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &1071423659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2037669405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1082774465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 873124086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1090042242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &1120430348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,6 +2407,160 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1144203192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1545869639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1157084708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2135298692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1161140488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2069764933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1168778389 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 623855707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1174836914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1258492575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1186472647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 35298990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1190914051 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 549025406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1199354731 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 621346626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1200115318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1258492575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &1279105905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +2645,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1363034048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &1363293860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +2786,177 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1373565848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1393112472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1440056702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &1473769473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,6 +3013,187 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: []
+--- !u!1001 &1505430430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &1520620038 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2020340436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1529685797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 230292914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1543090804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1545869639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &1577585847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +3278,146 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1657438892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657438893}
+  m_Layer: 0
+  m_Name: Path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657438893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657438892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0108074, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 935025699}
+  - {fileID: 403360775}
+  - {fileID: 1829128626}
+  - {fileID: 462018751}
+  - {fileID: 909287164}
+  - {fileID: 837916080}
+  - {fileID: 1529685797}
+  - {fileID: 449612487}
+  - {fileID: 1520620038}
+  - {fileID: 1892970838}
+  - {fileID: 818179226}
+  - {fileID: 814077590}
+  - {fileID: 792491857}
+  - {fileID: 1168778389}
+  - {fileID: 1855893283}
+  - {fileID: 868304234}
+  - {fileID: 1161140488}
+  - {fileID: 81058598}
+  - {fileID: 1157084708}
+  - {fileID: 76960078}
+  - {fileID: 704352825}
+  - {fileID: 1932470475}
+  - {fileID: 68396102}
+  - {fileID: 1144203192}
+  - {fileID: 131236566}
+  - {fileID: 688334264}
+  - {fileID: 683833600}
+  - {fileID: 1199354731}
+  - {fileID: 1190914051}
+  - {fileID: 110667085}
+  - {fileID: 1186472647}
+  - {fileID: 1810670045}
+  - {fileID: 1020447580}
+  - {fileID: 1174836914}
+  - {fileID: 1008573151}
+  - {fileID: 2084384665}
+  - {fileID: 1071423659}
+  - {fileID: 710279174}
+  - {fileID: 2143117073}
+  - {fileID: 15266115}
+  - {fileID: 1082774465}
+  - {fileID: 1999529333}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1707307091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &1810670045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1090042242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1829128626 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 917120612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836062075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +3502,254 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1855893283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1543090804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1892970838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1363034048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1932470475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1505430430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1941043875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1950089532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &1999529332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &1999529333 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 1999529332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2020340436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1 &2021130978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,6 +3834,358 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2037669405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &2069764933
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &2084384665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 2097524267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2097524267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &2116030729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!1001 &2135298692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+--- !u!4 &2143117073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+  m_PrefabInstance: {fileID: 108976709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6587063982577115641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1657438893}
+    m_Modifications:
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655223070804241171, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143162431550774454, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
+      propertyPath: m_Name
+      value: CobbleTile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce2c0c4c94ef087419fd9121043a25ac, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1507,3 +4196,4 @@ SceneRoots:
   - {fileID: 903603104}
   - {fileID: 688443635}
   - {fileID: 379595429}
+  - {fileID: 1657438893}
