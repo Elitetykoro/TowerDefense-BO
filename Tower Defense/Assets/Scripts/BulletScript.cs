@@ -9,6 +9,7 @@ public class BulletScript : MonoBehaviour
     private Transform Parent;
     public float speed;
     public float damage;
+    [SerializeField] private Sprite Arrow;
     
     void Start()
     {
@@ -23,6 +24,8 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, target.transform.position - transform.position);
+        transform.rotation *= Quaternion.Euler(new Vector3(0,0,90));
         if (target.GetComponent<EnemyScript>()?.health < 0)
         {
             Destroy(gameObject);

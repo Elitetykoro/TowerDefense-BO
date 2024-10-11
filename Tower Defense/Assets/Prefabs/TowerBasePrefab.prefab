@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8143227998070574261}
   - component: {fileID: 126995296043942074}
   - component: {fileID: 7046560942594897919}
-  - component: {fileID: 6284013305156475650}
+  - component: {fileID: 5881829835700253934}
   m_Layer: 0
   m_Name: TowerBasePrefab
   m_TagString: Untagged
@@ -102,8 +102,8 @@ MonoBehaviour:
   bowTower: {fileID: 8513034688698681675, guid: 8aa31636768b3a345b410158b93d68e8, type: 3}
   canonTower: {fileID: 8513034688698681675, guid: 48b42db9e066a8c45accec1cf067f905, type: 3}
   iceTower: {fileID: 8513034688698681675, guid: 84af51ef705d2ec4cbe28a9dc6e6ce49, type: 3}
---- !u!58 &6284013305156475650
-CircleCollider2D:
+--- !u!61 &5881829835700253934
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -131,12 +131,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 3.04
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1547134207623207019
 GameObject:
   m_ObjectHideFlags: 0
