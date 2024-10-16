@@ -9,7 +9,6 @@ public class TowerPlacementScript : MonoBehaviour
     public GameObject bowTower;
     public GameObject canonTower;
     public GameObject iceTower;
-    private GameObject selectedTower;
     private void Start()
     {
         transform.GetChild(0).gameObject.SetActive(false);

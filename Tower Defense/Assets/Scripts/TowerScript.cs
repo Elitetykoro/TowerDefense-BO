@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,11 @@ using UnityEngine;
 public class TowerScript : MonoBehaviour
 {
     private float bulletTime = 0;
-    private float animationTime = 0;
-    private Vector3 offset = new Vector3(0, 0, 90f);
+    private Vector3 offset = new Vector3(0,0,90);
     private CircleCollider2D collision;
-    public Animator animator;
+    private Animator animator;
     [SerializeField] private GameObject bullet;
+    [SerializeField] private DropDownSelector selectedTower = new DropDownSelector();
 
     [Header("Tower Attributes")]
     [SerializeField] private float bulletDelay;
@@ -37,18 +38,27 @@ public class TowerScript : MonoBehaviour
 
         if (bulletTime > bulletDelay && targets.Count != 0 && targets[0].gameObject != null)
         {
+            if (selectedTower == DropDownSelector.IceTower) animator.Play("IceTowerAnimation");
+            else if (selectedTower == DropDownSelector.CanonTower)
+            {
+                offset = new Vector3(0, 0, 0);
+                animator.Play("CanonTowerAnimation");
+            }
+            else if (selectedTower == DropDownSelector.BowTower)
+            {
+                animator.Play("BowTowerAnim");
+            }
             Instantiate(bullet, transform.position, Quaternion.identity, transform);
-            transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
-            transform.rotation *= Quaternion.Euler(offset);
-            animator.Play("BowTowerAnim");
-
+            if(selectedTower != DropDownSelector.IceTower) transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
+            else if (selectedTower != DropDownSelector.IceTower) transform.rotation *= Quaternion.Euler(offset);
+            
             bulletTime = 0;
         }
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("target"))
+        if (collision.gameObject.CompareTag("target"))
         {
             targets.Add(collision.gameObject);
         }
@@ -58,7 +68,12 @@ public class TowerScript : MonoBehaviour
         if (collision.gameObject.CompareTag("target"))
         {
             targets.Remove(collision.gameObject);
-            collision.gameObject.tag = "Untagged";
         }
     }
 }
+public enum DropDownSelector
+{
+    IceTower,
+    BowTower,
+    CanonTower
+};

@@ -24,7 +24,10 @@ public class EnemyScript : MonoBehaviour
     {
         
         EnemyMoveTowardPoint();
-        if (health < 0) Destroy(gameObject); // If health 0 == die
+        if (health < 0)
+        {
+            Destroy(gameObject);
+        }// If health 0 == die
     }
     void EnemyMoveTowardPoint()
     {

@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8513034688698681675}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6248339, w: 0.7807577}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 77.34}
 --- !u!95 &6042435930888176812
 Animator:
   serializedVersion: 5
@@ -122,6 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 6042435930888176812}
   bullet: {fileID: 8082748282888073272, guid: a5e5143bc8471184eb98e091cc2417c3, type: 3}
+  selectedTower: 1
   bulletDelay: 1
   range: 3
   bulletSpeed: 5
