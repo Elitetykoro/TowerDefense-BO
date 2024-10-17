@@ -99,9 +99,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3a7722ee013b744be8c8ededdaabb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyManager: {fileID: 349656958069404814, guid: d8a7cdcaef5488f40970c730697a68c6, type: 3}
+  notEnoughMoney: {fileID: 1713278224491039698, guid: 7d20987cada857c4eaa4adaf1e57e19a, type: 3}
   bowTower: {fileID: 8513034688698681675, guid: 8aa31636768b3a345b410158b93d68e8, type: 3}
   canonTower: {fileID: 8513034688698681675, guid: 48b42db9e066a8c45accec1cf067f905, type: 3}
   iceTower: {fileID: 8513034688698681675, guid: 84af51ef705d2ec4cbe28a9dc6e6ce49, type: 3}
+  canonBulletSprite: {fileID: 21300000, guid: 24a33b201de511f459e1846f54e881dd, type: 3}
+  bowBulletSprite: {fileID: 21300000, guid: 965ede9bf4787d7408226141fb396c8f, type: 3}
+  iceBulletSprite: {fileID: 21300000, guid: 5637089dcb12c6f41a9911c90cd251db, type: 3}
+  currentBulletType: {fileID: 0}
 --- !u!61 &5881829835700253934
 BoxCollider2D:
   m_ObjectHideFlags: 0

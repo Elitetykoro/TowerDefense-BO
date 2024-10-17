@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,10 +7,11 @@ public class TowerScript : MonoBehaviour
     private Vector3 offset = new Vector3(0,0,90);
     private CircleCollider2D collision;
     private Animator animator;
+
     [SerializeField] private GameObject bullet;
-    [SerializeField] private DropDownSelector selectedTower = new DropDownSelector();
 
     [Header("Tower Attributes")]
+    [SerializeField] private DropDownSelector selectedTower = new DropDownSelector();
     [SerializeField] private float bulletDelay;
     [SerializeField] private float range;
 
@@ -34,27 +33,28 @@ public class TowerScript : MonoBehaviour
 
         for (int i = 0; i < targets.Count; i++) targets[i].tag = "target"; // Add tag to target
 
-        
-
-        if (bulletTime > bulletDelay && targets.Count != 0 && targets[0].gameObject != null)
+        if (bulletTime > bulletDelay && targets.Count != 0 && targets[0].gameObject != null && transform.childCount == 0)
         {
-            if (selectedTower == DropDownSelector.IceTower) animator.Play("IceTowerAnimation");
-            else if (selectedTower == DropDownSelector.CanonTower)
+            if (selectedTower == DropDownSelector.IceTower)
             {
                 offset = new Vector3(0, 0, 0);
+                animator.Play("IceTowerAnimation");
+            }
+            else if (selectedTower == DropDownSelector.CanonTower)
+            {
                 animator.Play("CanonTowerAnimation");
+                offset = new Vector3(0,0,0);
             }
             else if (selectedTower == DropDownSelector.BowTower)
             {
                 animator.Play("BowTowerAnim");
             }
             Instantiate(bullet, transform.position, Quaternion.identity, transform);
-            if(selectedTower != DropDownSelector.IceTower) transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
-            else if (selectedTower != DropDownSelector.IceTower) transform.rotation *= Quaternion.Euler(offset);
-            
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
+            transform.rotation *= Quaternion.Euler(offset);
+
             bulletTime = 0;
         }
-        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

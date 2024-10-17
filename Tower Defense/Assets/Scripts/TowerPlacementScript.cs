@@ -1,38 +1,54 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public class TowerPlacementScript : MonoBehaviour
 {
-    public GameObject bowTower;
-    public GameObject canonTower;
-    public GameObject iceTower;
+    private List<GameObject> towerGameobjectList;
+    [SerializeField] private GameObject moneyManager;
+    [SerializeField] private TextMeshProUGUI notEnoughMoney;
+
+    [SerializeField] private GameObject bowTower;
+    [SerializeField] private GameObject canonTower;
+    [SerializeField] private GameObject iceTower;
+    [SerializeField] private Sprite canonBulletSprite;
+    [SerializeField] private Sprite bowBulletSprite;
+    [SerializeField] private Sprite iceBulletSprite;
+    public Sprite currentBulletType;
+
     private void Start()
     {
         transform.GetChild(0).gameObject.SetActive(false);
+        towerGameobjectList = transform.parent.GetComponent<towerListScript>().towerList;
     }
     private void OnMouseDown()
     {
+        for (int i = 0; i < towerGameobjectList.Count; i++) towerGameobjectList[i].transform.GetChild(0).gameObject.SetActive(false);
         transform.GetChild(0).gameObject.SetActive(true);
     }
     public void BowTowerPlacement()
     {
-        Instantiate(bowTower, transform.position, Quaternion.identity, transform);
-        transform.GetChild(0).gameObject.SetActive(false);
-        transform.GetComponent<Collider2D>().enabled = false;
+        TowerPlace(bowTower, bowBulletSprite, 100);
     }
     public void IceTowerPlacement()
     {
-        Instantiate(iceTower, transform.position, Quaternion.identity, transform);
-        transform.GetChild(0).gameObject.SetActive(false);
-        transform.GetComponent<Collider2D>().enabled = false;
+        TowerPlace(iceTower, iceBulletSprite, 110);
     }
     public void CanonTowerPlacement()
     {
-        Instantiate(canonTower, transform.position, Quaternion.identity, transform);
+        TowerPlace(canonTower, canonBulletSprite, 150);
+    }
+    private void TowerPlace(GameObject towerType, Sprite bulletType, float cost)
+    {
         transform.GetChild(0).gameObject.SetActive(false);
-        transform.GetComponent<Collider2D>().enabled = false;
+        if (moneyManager.GetComponent<MoneyManagerScript>().money >= cost)
+        {
+            transform.GetComponent<Collider2D>().enabled = false;
+            Instantiate(towerType, transform.position, Quaternion.identity, transform);
+            moneyManager.GetComponent<MoneyManagerScript>().money -= cost;
+            currentBulletType = bulletType;
+        }
+        else notEnoughMoney.alpha = 255;
+
     }
 }

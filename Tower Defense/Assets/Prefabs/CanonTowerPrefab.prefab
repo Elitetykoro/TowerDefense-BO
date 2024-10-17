@@ -120,8 +120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3f0757254651874fbedbd4db30a66b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   bullet: {fileID: 8082748282888073272, guid: a5e5143bc8471184eb98e091cc2417c3, type: 3}
+  canonBulletSprite: {fileID: 21300000, guid: 24a33b201de511f459e1846f54e881dd, type: 3}
+  bowBulletSprite: {fileID: 21300000, guid: 965ede9bf4787d7408226141fb396c8f, type: 3}
+  iceBulletSprite: {fileID: 21300000, guid: 5637089dcb12c6f41a9911c90cd251db, type: 3}
+  currentBulletType: {fileID: 0}
   selectedTower: 2
   bulletDelay: 2
   range: 4

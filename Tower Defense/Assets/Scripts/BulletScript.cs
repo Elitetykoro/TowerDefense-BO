@@ -1,17 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
 public class BulletScript : MonoBehaviour
 {
+    private SpriteRenderer spriteRenderer;
     public GameObject target;
     private Transform Parent;
     public float speed;
     public float damage;
     private Transform lastEnemyPosition;
-    [SerializeField] private Sprite Arrow;
     private TowerScript tower;
     
     void Start()
@@ -19,33 +15,40 @@ public class BulletScript : MonoBehaviour
         target = gameObject;
         Parent = transform.parent.gameObject.transform;
         target = Parent.GetComponent<TowerScript>().targets[0].gameObject;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         
         speed = Parent.GetComponent<TowerScript>().bulletSpeed;
         damage = Parent.GetComponent<TowerScript>().bulletDamage;
+        spriteRenderer.sprite = Parent.transform.parent.GetComponent<TowerPlacementScript>().currentBulletType;
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, target.transform.position - transform.position);
-        transform.rotation *= Quaternion.Euler(new Vector3(0,0,90));
-        lastEnemyPosition = target.transform;
+        tower = Parent.GetComponent<TowerScript>();
+
         if (target == null)
         {
-            transform.position = Vector3.MoveTowards(transform.position, lastEnemyPosition.transform.position, speed * Time.deltaTime);
-            if (Vector3.Distance(transform.position, lastEnemyPosition.position) <= 0.1f) Destroy(gameObject);
+            Destroy(gameObject);
         }
-        
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, target.transform.position - transform.position);
+            transform.rotation *= Quaternion.Euler(new Vector3(0, 0, 90));
+            lastEnemyPosition = target.transform;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        tower = Parent.GetComponent<TowerScript>(); 
-        if (target.GetComponent<EnemyScript>()?.health < 0)
+        if (collision == target.GetComponent<Collider2D>())
         {
+            if (target.GetComponent<EnemyScript>().health < 0)
+            {
+                tower.targets.Remove(collision.gameObject);
+                Destroy(gameObject);
+            }
+            collision.GetComponent<EnemyScript>().health -= damage;
             Destroy(gameObject);
-            tower.targets.Remove(collision.gameObject);
         }
-        collision.GetComponent<EnemyScript>().health -= damage;
-        Destroy(gameObject);
     }
 }
