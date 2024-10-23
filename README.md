@@ -58,24 +58,24 @@ Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit
 
 *Mijn torens hebben ook nog een f.o.v waardoor je pas gaan mikken als enemies in de buurt zijn. ook hebben mijn torens geen 360 graden view maar 90 graden waardoor het een extra uitdaging is voor de speler om de torens ook op de meest tactische manier te roteren.*
 
-*  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+*  **Je game bevat vernietigbare vijanden die 1 pad kunnen volgen.**  
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
+*Mijn torens bevatten 3 types: 
+1 snelle die snel schiet maar weinig range.
+er is nog een slome toren die langzaam schiet veel damage doet en veel range heeft
+en de laatste toren heeft normale snelheid normale range en normale damage.
 
 *  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*Onderbouwing hier...*
+ja mijn game bevat een wave systeem eerst spawnen de enemies om de 10 seconden enemies spawned en daarna spawnen ze om 1.5 sec ongeveer
 
 *  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
 
-*Onderbouwing hier...*
+ja mijn game bevat een health systeem als de enemies het einde van hun pad bereiken dan verlies jij 1 leven
 
 *  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
 
-*Onderbouwing hier...*
+ik heb een moeny systeem je krijgt money als je enemies dood en je kan met money torens kopen en plaatsen
 
 *  **Een “upgrade” systeem om je torens te verbeteren.**
 
@@ -140,8 +140,11 @@ Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hi
 De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
 
 Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
+heb ik beetje gedaan ik heb ook een deel op dezelfde beanhc gemaakt
 
 Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
+
+ik ga voor elke feature een eigen branch maken die geef ik de naam van de feature zelf. als er een feature af is ga ik comitten of als de dag voorbij is
 
 Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
