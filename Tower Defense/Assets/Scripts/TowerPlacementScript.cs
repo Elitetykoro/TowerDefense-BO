@@ -5,8 +5,7 @@ using UnityEngine;
 public class TowerPlacementScript : MonoBehaviour
 {
     private List<GameObject> towerGameobjectList;
-    [SerializeField] private GameObject moneyManager;
-    [SerializeField] private TextMeshProUGUI notEnoughMoney;
+    [SerializeField] private MoneyManagerScript moneyManager;
 
     [SerializeField] private GameObject bowTower;
     [SerializeField] private GameObject canonTower;
@@ -41,14 +40,14 @@ public class TowerPlacementScript : MonoBehaviour
     private void TowerPlace(GameObject towerType, Sprite bulletType, float cost)
     {
         transform.GetChild(0).gameObject.SetActive(false);
-        if (moneyManager.GetComponent<MoneyManagerScript>().money >= cost)
+        if (moneyManager.money >= cost)
         {
             transform.GetComponent<Collider2D>().enabled = false;
             Instantiate(towerType, transform.position, Quaternion.identity, transform);
-            moneyManager.GetComponent<MoneyManagerScript>().money -= cost;
+            moneyManager.money -= cost;
             currentBulletType = bulletType;
         }
-        else notEnoughMoney.alpha = 255;
+        else Camera.main.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>().alpha = 255;
 
     }
 }

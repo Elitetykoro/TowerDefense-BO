@@ -12,7 +12,6 @@ public class BulletScript : MonoBehaviour
     
     void Start()
     {
-        target = gameObject;
         Parent = transform.parent.gameObject.transform;
         target = Parent.GetComponent<TowerScript>().targets[0].gameObject;
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -27,6 +26,10 @@ public class BulletScript : MonoBehaviour
         tower = Parent.GetComponent<TowerScript>();
 
         if (target == null)
+        {
+            Destroy(gameObject);
+        }
+        if (target == this)
         {
             Destroy(gameObject);
         }

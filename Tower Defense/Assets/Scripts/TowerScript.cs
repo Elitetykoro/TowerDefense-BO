@@ -7,6 +7,10 @@ public class TowerScript : MonoBehaviour
     private Vector3 offset = new Vector3(0,0,90);
     private CircleCollider2D collision;
     private Animator animator;
+    [SerializeField] private AudioClip bowShootSFX;
+    [SerializeField] private AudioClip iceShootSFX;
+    [SerializeField] private AudioClip canonShootSFX;
+    private AudioSource audioSource;
 
     [SerializeField] private GameObject bullet;
 
@@ -24,6 +28,7 @@ public class TowerScript : MonoBehaviour
     {
         collision = GetComponent<CircleCollider2D>();
         animator = gameObject.GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -39,15 +44,21 @@ public class TowerScript : MonoBehaviour
             {
                 offset = new Vector3(0, 0, 0);
                 animator.Play("IceTowerAnimation");
+                audioSource.clip = iceShootSFX;
+                audioSource.Play();
             }
             else if (selectedTower == DropDownSelector.CanonTower)
             {
                 animator.Play("CanonTowerAnimation");
                 offset = new Vector3(0,0,0);
+                audioSource.clip = canonShootSFX;
+                audioSource.Play();
             }
             else if (selectedTower == DropDownSelector.BowTower)
             {
                 animator.Play("BowTowerAnim");
+                audioSource.clip = bowShootSFX;
+                audioSource.Play();
             }
             Instantiate(bullet, transform.position, Quaternion.identity, transform);
             transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - transform.position);
