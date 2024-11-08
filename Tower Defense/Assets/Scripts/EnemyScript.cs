@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class EnemyScript : MonoBehaviour
 {
-    [SerializeField] List<GameObject> pointList; 
+    [SerializeField] private List<GameObject> pointList;
     public PointScript pointScript;
     private int pointIndex;
     private float speed = 1f;
@@ -15,14 +13,20 @@ public class EnemyScript : MonoBehaviour
 
     private void Start()
     {
-        health = 50;
+        
+        health = Random.Range(50,150);
+        speed = Random.Range(0.1f, 2f);
         pointList = pointScript.points;
         pointIndex = 0;
     }
     void Update()
     {
         EnemyMoveTowardPoint();
-        if (health < 0) Destroy(gameObject); // If health 0 == die
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            Camera.main.transform.GetChild(0).transform.GetComponent<MoneyManagerScript>().money += 30;
+        }// If health 0 == die
     }
     void EnemyMoveTowardPoint()
     {
@@ -35,9 +39,15 @@ public class EnemyScript : MonoBehaviour
                 if (transform.position == pointList[pointIndex + 1].transform.position) pointIndex++;
             }
         }
-        if (pointList[pointList.Count-1].transform.position == transform.position) // Finish
+        if (pointList.Count >= 1)
         {
-            Destroy(gameObject);
+            if (pointList[pointList.Count - 1].transform.position == transform.position) // Finish
+            {
+                Destroy(gameObject);
+                Camera.main.transform.GetChild(0).transform.GetComponent<MoneyManagerScript>().lives--;
+            }
         }
+        else Destroy(gameObject);
+        
     }
 }

@@ -1,93 +1,53 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public class TowerPlacementScript : MonoBehaviour
 {
-    [SerializeField] private GameObject Bullet;
-    private SpriteRenderer spriteRenderer;
-    private CircleCollider2D collision;
-    private GameObject bowTurret;
-    private int towerType;
-    private float time;
-    private float bulletDelay;
-    private Vector3 offset = new Vector3(0, 0, 90f);
-    [Header("Attributes")]
-    public List<GameObject> targets;
-    public float range;
-    void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        collision = GetComponent<CircleCollider2D>();
-        bowTurret = transform.GetChild(0).gameObject;
-    }
+    private List<GameObject> towerGameobjectList;
+    [SerializeField] private MoneyManagerScript moneyManager;
 
-    void Update()
-    {
-        collision.radius = range;
+    [SerializeField] private GameObject bowTower;
+    [SerializeField] private GameObject canonTower;
+    [SerializeField] private GameObject iceTower;
+    [SerializeField] private Sprite canonBulletSprite;
+    [SerializeField] private Sprite bowBulletSprite;
+    [SerializeField] private Sprite iceBulletSprite;
+    public Sprite currentBulletType;
 
-        for (int i = 0; i < targets.Count; i++) targets[i].tag = "target"; // Add tag to target
-
-        if (towerType == 1) ArrowTower(); // Work in progress (need to find better way for changing towers)
-        else if (towerType == 2) BombTower();
-        else if (towerType == 3) MiniGunTower();
-
-        if (time > bulletDelay && towerType > 0 && targets.Count != 0)
-        {
-            Instantiate(Bullet, transform.position, Quaternion.identity, transform);
-            if (targets.Count > 0)
-            {
-                bowTurret.transform.rotation = Quaternion.LookRotation(Vector3.forward, targets[0].transform.position - bowTurret.transform.position);
-                bowTurret.transform.rotation *= Quaternion.Euler(offset);
-            }
-            time = 0;
-        }
-    }
-    private void ArrowTower()
+    private void Start()
     {
-        spriteRenderer.color = new Color(0, 0, 1, 1);
-        range = 3f;
-        bulletDelay = 1f;
-        time += Time.deltaTime;
-        
-    }
-    private void BombTower()
-    {
-        spriteRenderer.color = new Color(0, 1, 0, 1);
-        range = 2f;
-        bulletDelay = 4f;
-        time += Time.deltaTime;
-        
-    }
-    private void MiniGunTower()
-    {
-        spriteRenderer.color = new Color(1, 1, 0, 1);
-        range = 1f;
-        bulletDelay = 0.5f;
-        time += Time.deltaTime;
-        
+        transform.GetChild(0).gameObject.SetActive(false);
+        towerGameobjectList = transform.parent.GetComponent<towerListScript>().towerList;
     }
     private void OnMouseDown()
     {
-        towerType++;
-        if (towerType >= 4 ) towerType = 1;
+        for (int i = 0; i < towerGameobjectList.Count; i++) towerGameobjectList[i].transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.SetActive(true);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void BowTowerPlacement()
     {
-        Debug.Log(collision.gameObject);
-        if (!collision.gameObject.CompareTag("target"))
-        {
-            targets.Add(collision.gameObject);
-        }
+        TowerPlace(bowTower, bowBulletSprite, 100);
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    public void IceTowerPlacement()
     {
-        if (collision.gameObject.CompareTag("target"))
+        TowerPlace(iceTower, iceBulletSprite, 110);
+    }
+    public void CanonTowerPlacement()
+    {
+        TowerPlace(canonTower, canonBulletSprite, 150);
+    }
+    private void TowerPlace(GameObject towerType, Sprite bulletType, float cost)
+    {
+        transform.GetChild(0).gameObject.SetActive(false);
+        if (moneyManager.money >= cost)
         {
-            targets.Remove(collision.gameObject);
-            collision.gameObject.tag = "Untagged";
+            transform.GetComponent<Collider2D>().enabled = false;
+            Instantiate(towerType, transform.position, Quaternion.identity, transform);
+            moneyManager.money -= cost;
+            currentBulletType = bulletType;
         }
+        else Camera.main.transform.GetChild(0).transform.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>().alpha = 255;
+
     }
 }

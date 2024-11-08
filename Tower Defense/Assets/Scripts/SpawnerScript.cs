@@ -9,19 +9,25 @@ public class Spawner : MonoBehaviour
     private int enemyIndex;
     private float time = 0;
 
-    [Header("Delay in between Enemies")]
-    public float spawnDelay = 1;
+    [Header("Spawner Attributes")]
+    public float spawnDelay = 10;
+
+    [Header("Enemy Attributes")]
+    public float enemyHealth;
+    public float enemySpeed;
     private void Update()
     {
         transform.position = pointScript.points[0].transform.position;
         time += Time.deltaTime;
         if (time > spawnDelay)
         {
-            GameObject newEnemy = Instantiate(enemy, transform.position, pointScript.points[0].transform.rotation);
+            enemyHealth = Random.Range(1, 50);
+            enemySpeed = Random.Range(1, 50);
+            GameObject newEnemy = Instantiate(enemy, transform.position, pointScript.points[0].transform.rotation,transform);
             enemyIndex++;
             newEnemy.name = $"enemy{enemyIndex}";
             enemy.GetComponent<EnemyScript>().pointScript = pointScript;
-            //if (spawnDelay > 2) spawnDelay = spawnDelay * 0.75f; // Difficulty modifier
+            if (spawnDelay > 2) spawnDelay = spawnDelay * 0.75f; // Difficulty modifier
             time = 0;
         }
     }
